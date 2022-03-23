@@ -11,36 +11,83 @@
 </head>
 <body>
     <!-- 섹션 바로가기 메뉴바 -->
-    <nav class="menu">
-        <input checked="checked" class="menu-toggler" type="checkbox">
-        <label for="menu-toggler"></label>
-        <ul>
-            <li class="menu-item">
-                <a href="#second"><i class="fas fa-gift"></i></a>
-            </li>
-            <li class="menu-item">
-                <a href="#three"><i class="far fa-comments"></i></a>
-            </li>
-            <li class="menu-item">
-                <a href="#first"><i class="fas fa-utensils"></i></a>
-            </li>
-        </ul>
-    </nav>
+    <div class="menuBar" id="menu">
+        <input type="checkbox" id="menuBtn">
+        <label for="menuBtn"></label>
+        <a style="--i: 3" href="#first"><span><i class="fas fa-utensils"></i></span></a>
+        <a style="--i: 2" href="#second"><span><i class="fas fa-gift"></i></span></a>
+        <a style="--i: 1" href="#three"><span><i class="far fa-comments"></i></span></a>
+    </div>
+    <div class="shareBar" id="menu">
+        <input type="checkbox" id="shareBtn">
+        <label for="shareBtn"><i class="fas fa-share"></i></label>
+        <a style="--i: 3" href="#"></a>
+        <a style="--i: 2" href="#"></a>
+        <a style="--i: 1" href="#"></a>
+    </div>
+
+    <!-- 슬로건 -->
 
     <!-- 첫번째 섹션 -->
     <section id="first" class="sec1">
-        <a href=""><img src="img/사진/" alt=""></a>
+        <div class="left_title">
+            <h3 class="title">특산물</h3>
+            <p>
+                경상남도 여러 지역마다의 <br>
+                지역만의 특별하고, 신선한 특산물들을<br>
+                고민하지 말고 구경하다 가세요 !
+            </p>
+            <div class="wrap_sub">
+                <a href="sub1.html">특산물 바로가기</a>
+            </div>
+        </div>
+        
+        <div class="right_img">
+            <img src="./img/사진/photo (13).jpg" alt="사진">
+        </div>
     </section>
 
     <!-- 두번째 섹션 -->
     <section id="second" class="sec2">
+        <div class="left_title">
+            <h3 class="title">이벤트</h3>
+            <p>
+                참여만 해도 좋은 경품들이 가득 ! <br>
+                카드게임, 출석체크 등의 이벤트들이 있으니, <br>
+                참여하고 필요한 경품 받아가세요 !
+            </p>
+            <div class="wrap_sub">
+                <a href="sub2.html">이벤트 바로가기</a>
+            </div>
+        </div>
 
+        <div class="right_img">
+            <img src="./img/사진/photo (19).jpg" alt="사진">
+        </div>
     </section>
 
     <!-- 세번째 섹션 -->
     <section id="three" class="sec3">
+        <div class="left_title">
+            <h3 class="title">구매후기</h3>
+            <p>
+                이번 기회를 통하여, <br>
+                경상남도의 대해 많이 알게되셨나요 ? <br>
+                특산물에 대한 구매후기를 남겨주세요 !
+            </p>
+            <div class="wrap_sub">
+                <a href="sub3.html">구매후기 바로가기</a>
+            </div>
+        </div>
 
+        <div class="right_img">
+            <img src="./img/사진/photo (11).jpg" alt="사진">
+        </div>
     </section>
+
+    <footer>
+        Copyright (C) Gyeongsangbuk-do. All Rights Reserved.
+    </footer>
 </body>
     <script src="./js/app.js"></script>
 </html>
