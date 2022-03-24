@@ -24,7 +24,6 @@ body {
 
 
 /* 바로가기 메뉴바 */
-
 #menu {
     position: fixed;
     display: flex;
@@ -42,7 +41,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--color-f0f);
+    color: white;
     font-weight: bold;
     width: 40px;
     height: 40px;
@@ -61,7 +60,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--color-f0f);
+    color: white;
     font-weight: bold;
     width: 40px;
     height: 40px;
@@ -104,7 +103,6 @@ body {
 
 
 /* sns 공유 메뉴바 */
-
 .shareBar{
     left: 3%;
     bottom: 6%;
@@ -151,14 +149,18 @@ section{
     color: white;
 }
 
+.left_title .wrap_sub a:hover {
+    text-decoration: white underline;
+}
+
 .left_title .title {
-    font-size: 36px;
+    font-size: 48px;
     font-weight: bold;
 }
 
 .left_title p {
     margin-top: 24px;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.5;
     letter-spacing: -.5px;
     color: var(--color-666);
@@ -166,7 +168,6 @@ section{
 
 
 /* 첫번째 섹션 */
-
 .sec1 {
     display: flex;
     justify-content: center;
@@ -186,7 +187,7 @@ section{
 }
 
 .sec1 .right_img img{
-    width: 550px;
+    width: 800px;
     border-radius: 20px;
     border: 6px solid var(--color-org);
     box-shadow: 3px 3px 6px black;
@@ -194,7 +195,6 @@ section{
 
 
 /* 두번째 섹션 */
-
 .sec2 {
     display: flex;
     justify-content: center;
@@ -206,16 +206,16 @@ section{
 
 .sec2 .left_title {
     position: absolute;
-    right: 10.5%;
+    right: 15.5%;
 }
 
 .sec2 .right_img {
     position: relative;
-    right: 15.5%;
+    right: 20.5%;
 }
 
 .sec2 .right_img img {
-    width: 550px;
+    width: 800px;
     border-radius: 20px;
     border: 6px solid var(--color-org);
     box-shadow: 3px 3px 6px black;
@@ -223,7 +223,6 @@ section{
 
 
 /* 세번째 섹션 */
-
 .sec3 {
     display: flex;
     justify-content: center;
@@ -234,7 +233,7 @@ section{
 
 .sec3 .left_title {
     position: absolute;
-    left: 15.5%;
+    left: 15%;
 }
 
 .sec3 .right_img {
@@ -243,15 +242,14 @@ section{
 }
 
 .sec3 .right_img img {
-    width: 550px;
+    width: 800px;
     border-radius: 20px;
     border: 6px solid var(--color-org);
     box-shadow: 3px 3px 6px black;
 }
 
 /* 푸터 */
-
-footer {
+footer .copy{
     padding-bottom: 50px;
     color: var(--color-666);
 }
