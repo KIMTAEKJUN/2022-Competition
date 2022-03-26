@@ -127,7 +127,6 @@ body {
 
 
 /* 전체 섹션 */
-
 section{
     position: relative;
     display: block;
@@ -272,13 +271,6 @@ section{
     height: 500px;
 }
 
-/* .sec3 .right_img .img5 {
-    width: 500px;
-    border-radius: 20px;
-    border: 6px solid var(--color-org);
-    box-shadow: 3px 3px 6px black;
-} */
-
 .sec3 .right_img .img5 {
     position: relative;
     width: 450px;
@@ -298,6 +290,7 @@ section{
     border: 6px solid var(--color-org);
     box-shadow: 3px 3px 6px black;
 }
+
 
 /* 푸터 */
 footer .copy{
