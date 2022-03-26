@@ -127,7 +127,6 @@ body {
 
 
 /* 전체 섹션 */
-
 section{
     position: relative;
     display: block;
@@ -137,6 +136,7 @@ section{
 
 .left_title .wrap_sub {
     margin-top: 40px;
+    animation: btns 2s infinite ease-in-out;
 }
 
 .left_title .wrap_sub a {
@@ -149,8 +149,20 @@ section{
     color: white;
 }
 
+@keyframes btns {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(3px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
 .left_title .wrap_sub a:hover {
-    text-decoration: white underline;
+    text-decoration: underline white;
 }
 
 .left_title .title {
@@ -184,7 +196,8 @@ section{
 .sec1 .right_img {
     position: relative;
     left: 22%;
-    height: 500px
+    height: 500px;
+    animation: image 2s ease-in-out;
 }
 
 .sec1 .right_img .img1 {
@@ -226,6 +239,7 @@ section{
     position: relative;
     right: 21%;
     height: 500px;
+    animation: image 2s ease-in-out;
 }
 
 .sec2 .right_img .img3 {
@@ -270,14 +284,8 @@ section{
     position: relative;
     left: 20%;
     height: 500px;
+    animation: image 2s ease-in-out;
 }
-
-/* .sec3 .right_img .img5 {
-    width: 500px;
-    border-radius: 20px;
-    border: 6px solid var(--color-org);
-    box-shadow: 3px 3px 6px black;
-} */
 
 .sec3 .right_img .img5 {
     position: relative;
@@ -297,6 +305,15 @@ section{
     border-radius: 20px;
     border: 6px solid var(--color-org);
     box-shadow: 3px 3px 6px black;
+}
+
+@keyframes image {
+    0% {
+        filter: blur(5px);
+    }
+    100% {
+        filter: blur(0px);
+    }
 }
 
 /* 푸터 */
