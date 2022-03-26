@@ -187,10 +187,15 @@ section{
 }
 
 .sec1 .right_img img{
-    width: 800px;
+    width: 550px;
     border-radius: 20px;
     border: 6px solid var(--color-org);
     box-shadow: 3px 3px 6px black;
+}
+
+.sec .right_img .img1 {
+    position: absolute;
+
 }
 
 

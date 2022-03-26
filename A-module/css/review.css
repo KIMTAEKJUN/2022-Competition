@@ -76,12 +76,20 @@
     font-size: 4.5rem;
     font-weight: bold;
     z-index: 999;
-    padding-bottom: 10%;
+    padding-bottom: 3%;
     text-shadow: 3px 3px 6px black;
 }
 
 
 /* 구매후기 안내 섹션 */
+.header {
+    margin-top: 3%;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
 .sec2 {
     display: flex;
     justify-content: center;
@@ -174,4 +182,24 @@
     letter-spacing: -.3px;
     color: #555;
     font-weight: bold;
+}
+
+.sec3 .one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px 20px 0px; 
+}
+
+.sec3 .one li {
+    font-size: 1.5rem;
+    margin: 0px 8px;
+    letter-spacing: -3px;
+    cursor: pointer;
+}
+
+.page {
+    color: #666;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
