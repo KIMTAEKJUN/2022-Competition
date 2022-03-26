@@ -1,0 +1,12 @@
+:root {
+    --color-org: orange;
+    --color-f9f: #f9fafb;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
