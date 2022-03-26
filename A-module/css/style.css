@@ -183,19 +183,27 @@ section{
 
 .sec1 .right_img {
     position: relative;
-    left: 20%;
+    left: 22%;
+    height: 500px
 }
 
-.sec1 .right_img img{
-    width: 550px;
+.sec1 .right_img .img1 {
+    position: relative;
+    width: 500px;
+    top: 20%;
     border-radius: 20px;
     border: 6px solid var(--color-org);
     box-shadow: 3px 3px 6px black;
 }
 
-.sec .right_img .img1 {
+.sec1 .right_img .img2 {
     position: absolute;
-
+    width: 450px;
+    top: 5%;
+    right: 50%;
+    border-radius: 20px;
+    border: 6px solid var(--color-org);
+    box-shadow: 3px 3px 6px black;
 }
 
 
@@ -216,14 +224,31 @@ section{
 
 .sec2 .right_img {
     position: relative;
-    right: 20.5%;
+    right: 21%;
+    height: 500px;
 }
 
-.sec2 .right_img img {
-    width: 800px;
+.sec2 .right_img .img3 {
+    position: relative;
+    width: 350px;
+    height: 500px;
+    top: 10%;
+    left: 40%;
     border-radius: 20px;
     border: 6px solid var(--color-org);
     box-shadow: 3px 3px 6px black;
+}
+
+.sec2 .right_img .img4 {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    top: 20%;
+    right: 50%;
+    border-radius: 20px;
+    border: 6px solid var(--color-org);
+    box-shadow: 3px 3px 6px black;
+    
 }
 
 
@@ -244,10 +269,31 @@ section{
 .sec3 .right_img {
     position: relative;
     left: 20%;
+    height: 500px;
 }
 
-.sec3 .right_img img {
-    width: 800px;
+/* .sec3 .right_img .img5 {
+    width: 500px;
+    border-radius: 20px;
+    border: 6px solid var(--color-org);
+    box-shadow: 3px 3px 6px black;
+} */
+
+.sec3 .right_img .img5 {
+    position: relative;
+    width: 450px;
+    top: 30%;
+    left: 15%;
+    border-radius: 20px;
+    border: 6px solid var(--color-org);
+    box-shadow: 3px 3px 6px black;
+}
+
+.sec3 .right_img .img6 {
+    position: absolute;
+    width: 500px;
+    top: 5%;
+    right: 30%;
     border-radius: 20px;
     border: 6px solid var(--color-org);
     box-shadow: 3px 3px 6px black;
