@@ -47,6 +47,16 @@
     height: 600px;
     background: url(../img/사진/photo\ \(23\).jpg) no-repeat center;
     background-size: 100%;
+    animation: image 2s ease-in-out;
+}
+
+@keyframes image {
+    0% {
+        filter: blur(10px);
+    }
+    100% {
+        filter: blur(0px);
+    }
 }
 
 .sec1::after {
