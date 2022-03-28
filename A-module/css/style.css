@@ -2,8 +2,8 @@
     --color-org: orange;
     --color-666: #666;
     --color-f9f: #f9fafb;
-    --color-f0f: #F0F0D0;
-    --color-95e: #95E0C8;
+    --color-f0f: #f0f0d0;
+    --color-med: mediumaquamarine;
 }
 
 * {
@@ -50,7 +50,7 @@ body {
     z-index: 999;
     cursor: pointer;
     transition: all .5s;
-    border: 2px solid var(--color-95e);
+    border: 2px solid var(--color-med);
 }
 
 #menu a{
@@ -61,13 +61,14 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
+    font-size: 10px;
     font-weight: bold;
     width: 40px;
     height: 40px;
     border-radius: 50%;
     background-color: var(--color-org);
     transition: all .5s;
-    border: 2px solid var(--color-95e);
+    border: 2px solid var(--color-med);
 }
 .menuBar {
     right: 3%;
@@ -106,6 +107,9 @@ body {
 .shareBar{
     left: 3%;
     bottom: 6%;
+}
+.shareBar label {
+    font-size: 10px;
 }
 .shareBar a{
     background: url(../img/SNS.png) no-repeat;
@@ -246,7 +250,6 @@ section{
     position: relative;
     width: 350px;
     height: 500px;
-    top: 10%;
     left: 40%;
     border-radius: 20px;
     border: 6px solid var(--color-org);
@@ -257,7 +260,7 @@ section{
     position: absolute;
     width: 300px;
     height: 400px;
-    top: 20%;
+    top: 10%;
     right: 50%;
     border-radius: 20px;
     border: 6px solid var(--color-org);

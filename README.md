@@ -15,7 +15,7 @@
     --color-666: #666;
     --color-afb: #f9fafb;
     --color-f0f: #F0F0D0;
-    --color-95e: #95E0C8;
+    --color-med: mediumaquamarine;
 }
 
 .ex {
@@ -38,7 +38,7 @@
 }
 @keyframes image {
     0%{
-        filter: blur(5px);
+        filter: blur(10px);
     }
     100%{
         filter: blur(0px)
@@ -49,11 +49,12 @@
 <br/>
 
 + Event Page 색상
- + white, black, #666
+ + white, black
  + 버튼 animation, 로딩시 이미지 블러처리
 ``` CSS
 :root {
     --color-org: orange;
+    --color-666: #666;
     --color-afb: #f9fafb;
     --color-f9f: #f9ff9f;
 }
@@ -78,7 +79,7 @@
 }
 @keyframes image {
     0% {
-        filter: blur(5px);
+        filter: blur(10px);
     }
     100% {
         filter: blur(0px);
@@ -89,11 +90,12 @@
 <br/>
 
 + Review Page 색상
- + white, black, #95E0C8, #666, #999
+ + white, black, mediumaquamarine, #999
  + 로딩시 이미지 블러처리
 ``` CSS
 :root {
     --color-org: orange;
+    --color-666: #666;
     --color-afb: #f9fafb;
     --color-f9f: #f9ff9f;
 }

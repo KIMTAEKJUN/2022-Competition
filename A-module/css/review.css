@@ -1,5 +1,6 @@
 :root {
     --color-org: orange;
+    --color-666: #666;
     --color-f9f: #f9fafb;
 }
 
@@ -24,7 +25,7 @@
     height: 40px;
     border-radius: 50%;
     background-color: var(--color-org);
-    border: 2px solid #95E0C8;
+    border: 2px solid mediumaquamarine;
     cursor: pointer;
 }
 
@@ -34,6 +35,8 @@
 
 .menuBar label {
     color: white;
+    font-size: 10px;
+    font-weight: bold;
 }
 
 
@@ -113,7 +116,7 @@
 
 .sec2 span {
     position: relative;
-    color: #666;
+    color: var(--color-666);
     font-size: 2rem;
     text-align: center;
     line-height: 65px;
@@ -192,7 +195,7 @@
     margin-bottom: 15px;
     line-height: 1.5;
     letter-spacing: -.3px;
-    color: #666;
+    color: var(--color-666);
     font-weight: bold;
 }
 
@@ -211,7 +214,7 @@
 }
 
 .page {
-    color: #666;
+    color: var(--color-666);
     font-weight: bold;
     font-size: 1.5rem;
 }
