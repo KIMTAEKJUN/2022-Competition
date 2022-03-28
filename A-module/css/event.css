@@ -251,6 +251,7 @@
     margin-left: 20px;
 }
 
+
 /* 버튼 애니메이션 */
 @keyframes btns {
     0%{
@@ -263,11 +264,10 @@
         transform: translateY(0px);
     }
 }
-
 /* 이미지 블러처리 */
 @keyframes image {
     0% {
-        filter: blur(5px);
+        filter: blur(10px);
     }
     100% {
         filter: blur(0px);
