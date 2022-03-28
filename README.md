@@ -18,6 +18,7 @@
     --color-med: mediumaquamarine;
 }
 
+/* BTN Animation */
 .ex {
     animation: btns 2s infinite ease-in-out;
 }
@@ -33,6 +34,7 @@
     }
 }
 
+/* IMAGE Blur */
 .ex {
     animation: image 2s ease-in-out;
 }
@@ -59,6 +61,7 @@
     --color-f9f: #f9ff9f;
 }
 
+/* BTN Animation */
 .ex {
     animation: btns 2s infinite ease-in-out;
 }
@@ -74,6 +77,7 @@
     }
 }
 
+/* IMAGE Blur */
 .ex {
     animation: image 2s ease-in-out;
 }
@@ -100,6 +104,7 @@
     --color-f9f: #f9ff9f;
 }
 
+/* IMAGE Blur */
 .ex {
     animation: image 2s ease-in-out;
 }
