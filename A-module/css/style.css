@@ -35,7 +35,6 @@ body {
 #menu input{
     display: none;
 }
-
 #menu label{
     position: relative;
     display: flex;

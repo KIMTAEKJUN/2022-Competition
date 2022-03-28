@@ -26,15 +26,6 @@
     animation: image 2s ease-in-out;
 }
 
-@keyframes image {
-    0% {
-        filter: blur(5px);
-    }
-    100% {
-        filter: blur(0px);
-    }
-}
-
 .sec1::after {
     content: '';
     position: relative;
@@ -44,7 +35,6 @@
     height: 600px;
     background: linear-gradient(to bottom, transparent, white);
 }
-
 .sec1::before {
     content: '';
     position: absolute;
@@ -179,7 +169,6 @@
     font-size: 1.5rem;
     font-weight: bold;
 }
-
 .top div input {
     all: unset;
     display: inline;
@@ -208,18 +197,6 @@
     border-radius: 10px;
     box-shadow: 3px 3px 6px black;
     animation: btns 2s infinite ease-in-out;
-}
-
-@keyframes btns {
-    0%{
-        transform: translateY(0px);
-    }
-    50%{
-        transform: translateY(10px);
-    }
-    100%{
-        transform: translateY(0px);
-    }
 }
 
 .daily {
@@ -253,7 +230,6 @@
     font-size: 3rem;
     margin-bottom: 40px;
 }
-
 .daily ul li span:nth-of-type(2) {
     position: absolute;
     top: 70%;
@@ -273,4 +249,27 @@
     border-radius: 10px;
     box-shadow: 3px 3px 6px black;
     margin-left: 20px;
+}
+
+/* 버튼 애니메이션 */
+@keyframes btns {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+/* 이미지 블러처리 */
+@keyframes image {
+    0% {
+        filter: blur(5px);
+    }
+    100% {
+        filter: blur(0px);
+    }
 }

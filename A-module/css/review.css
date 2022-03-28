@@ -28,11 +28,9 @@
     border: 2px solid mediumaquamarine;
     cursor: pointer;
 }
-
 .menuBar input {
     display: none;
 }
-
 .menuBar label {
     color: white;
     font-size: 10px;
@@ -53,15 +51,6 @@
     animation: image 2s ease-in-out;
 }
 
-@keyframes image {
-    0% {
-        filter: blur(10px);
-    }
-    100% {
-        filter: blur(0px);
-    }
-}
-
 .sec1::after {
     content: '';
     position: relative;
@@ -71,7 +60,6 @@
     height: 600px;
     background: linear-gradient(to bottom, transparent, white);
 }
-
 .sec1::before {
     content: '';
     position: absolute;
@@ -124,7 +112,7 @@
 }
 
 
-/* 구매후기 목록 섹센 */
+/* 구매후기 목록 섹션 */
 .sec3 {
     position: relative;
     width: 100%;
@@ -217,4 +205,14 @@
     color: var(--color-666);
     font-weight: bold;
     font-size: 1.5rem;
+}
+
+/* 이미지 블러처리 */
+@keyframes image {
+    0% {
+        filter: blur(10px);
+    }
+    100% {
+        filter: blur(0px);
+    }
 }
