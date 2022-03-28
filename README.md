@@ -88,7 +88,7 @@
 }
 @keyframes image {
     0% {
-        filter: blur(10px);
+        filter: blur(5px);
     }
     100% {
         filter: blur(0px);
