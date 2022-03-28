@@ -8,7 +8,7 @@
 
 + Main Page 색상
   + white, black
-  + 버튼 animation, a:hover - underline, 로딩시 이미지 블러처리
+  + a:hover - underline, 버튼 animation, 로딩시 이미지 블러처리
 ``` CSS
 :root {
     --color-org: orange;
@@ -16,6 +16,11 @@
     --color-afb: #f9fafb;
     --color-f0f: #F0F0D0;
     --color-med: mediumaquamarine;
+}
+
+/* a:hover - underline */
+.ex a:hover {
+    text-decoration: underline white;
 }
 
 /* BTN Animation */
