@@ -137,6 +137,19 @@ section{
     min-height: 100vh;
 }
 
+.left_title .title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.left_title p {
+    margin-top: 24px;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: -.5px;
+    color: var(--color-666);
+}
+
 .left_title .wrap_sub {
     margin-top: 40px;
     animation: btns 2s infinite ease-in-out;
@@ -153,19 +166,6 @@ section{
 }
 .left_title .wrap_sub a:hover {
     text-decoration: underline white;
-}
-
-.left_title .title {
-    font-size: 48px;
-    font-weight: bold;
-}
-
-.left_title p {
-    margin-top: 24px;
-    font-size: 20px;
-    line-height: 1.5;
-    letter-spacing: -.5px;
-    color: var(--color-666);
 }
 
 
