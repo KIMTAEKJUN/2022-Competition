@@ -7,8 +7,8 @@
 <br/>
 
 + Main Page 색상
- + white, black
- + 버튼 animation, a:hover - underline, 로딩시 이미지 블러처리
+  + white, black
+  + 버튼 animation, a:hover - underline, 로딩시 이미지 블러처리
 ``` CSS
 :root {
     --color-org: orange;
@@ -49,8 +49,8 @@
 <br/>
 
 + Event Page 색상
- + white, black
- + 버튼 animation, 로딩시 이미지 블러처리
+  + white, black
+  + 버튼 animation, 로딩시 이미지 블러처리
 ``` CSS
 :root {
     --color-org: orange;
@@ -90,8 +90,8 @@
 <br/>
 
 + Review Page 색상
- + white, black, mediumaquamarine, #999
- + 로딩시 이미지 블러처리
+  + white, black, mediumaquamarine, #999
+  + 로딩시 이미지 블러처리
 ``` CSS
 :root {
     --color-org: orange;
