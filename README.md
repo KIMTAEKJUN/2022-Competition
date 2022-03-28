@@ -6,8 +6,8 @@
  
 <br/>
 
-+ Main Page 색상
-  + white, black
++ Main Page 필수 css
+  + 변수 설정 안해놓고 쓰는 색상 - white, black
   + a:hover - underline, 버튼 animation, 로딩시 이미지 블러처리
 ``` CSS
 :root {
@@ -55,8 +55,8 @@
 
 <br/>
 
-+ Event Page 색상
-  + white, black
++ Event Page 필수 css
+  + 변수 설정 안해놓고 쓰는 색상 - white, black
   + 버튼 animation, 로딩시 이미지 블러처리
 ``` CSS
 :root {
@@ -98,8 +98,8 @@
 
 <br/>
 
-+ Review Page 색상
-  + white, black, mediumaquamarine, #999
++ Review Page 필수 css
+  + 변수 설정 안해놓고 쓰는 색상 - white, black, mediumaquamarine, #999
   + 로딩시 이미지 블러처리
 ``` CSS
 :root {
