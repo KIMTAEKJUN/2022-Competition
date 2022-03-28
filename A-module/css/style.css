@@ -7,7 +7,7 @@
 }
 
 * {
-    margin: 0px;
+    margin: 0px; 
     padding: 0px;
     text-decoration: none;
     list-style: none;
@@ -152,19 +152,6 @@ section{
     letter-spacing: -.2px;
     color: white;
 }
-
-@keyframes btns {
-    0%{
-        transform: translateY(0px);
-    }
-    50%{
-        transform: translateY(3px);
-    }
-    100%{
-        transform: translateY(0px);
-    }
-}
-
 .left_title .wrap_sub a:hover {
     text-decoration: underline white;
 }
@@ -196,7 +183,6 @@ section{
     position: absolute;
     left: 15%;
 }
-
 .sec1 .right_img {
     position: relative;
     left: 22%;
@@ -212,7 +198,6 @@ section{
     border: 6px solid var(--color-org);
     box-shadow: 3px 3px 6px black;
 }
-
 .sec1 .right_img .img2 {
     position: absolute;
     width: 450px;
@@ -238,7 +223,6 @@ section{
     position: absolute;
     right: 15.5%;
 }
-
 .sec2 .right_img {
     position: relative;
     right: 21%;
@@ -255,7 +239,6 @@ section{
     border: 6px solid var(--color-org);
     box-shadow: 3px 3px 6px black;
 }
-
 .sec2 .right_img .img4 {
     position: absolute;
     width: 300px;
@@ -282,7 +265,6 @@ section{
     position: absolute;
     left: 15%;
 }
-
 .sec3 .right_img {
     position: relative;
     left: 20%;
@@ -299,7 +281,6 @@ section{
     border: 6px solid var(--color-org);
     box-shadow: 3px 3px 6px black;
 }
-
 .sec3 .right_img .img6 {
     position: absolute;
     width: 500px;
@@ -310,6 +291,27 @@ section{
     box-shadow: 3px 3px 6px black;
 }
 
+
+/* 푸터 */
+footer .copy{
+    padding-bottom: 50px;
+    color: var(--color-666);
+}
+
+/* 버튼 애니메이션 */
+@keyframes btns {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(3px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+/* 이미지 블러처리 */
 @keyframes image {
     0% {
         filter: blur(5px);
@@ -317,10 +319,4 @@ section{
     100% {
         filter: blur(0px);
     }
-}
-
-/* 푸터 */
-footer .copy{
-    padding-bottom: 50px;
-    color: var(--color-666);
 }
