@@ -200,13 +200,6 @@
     cursor: pointer;
 }
 
-.page {
-    color: var(--color-666);
-    font-weight: bold;
-    font-size: 1.5rem;
-}
-
-
 /* 이미지 블러처리 */
 @keyframes image {
     0% {
