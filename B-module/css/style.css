@@ -1,13 +1,13 @@
 :root {
-    --color-666: #666;
     --color-org: orange;
+    --color-666: #666;
     --color-f9f: #f9fafb;
-    --color-f0f: #F0F0D0;
-    --color-95e: #95E0C8;
+    --color-f0f: #f0f0d0;
+    --color-med: mediumaquamarine;
 }
 
 * {
-    margin: 0px;
+    margin: 0px; 
     padding: 0px;
     text-decoration: none;
     list-style: none;
@@ -35,13 +35,13 @@ body {
 #menu input{
     display: none;
 }
-
 #menu label{
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
+    font-size: 12px;
     font-weight: bold;
     width: 40px;
     height: 40px;
@@ -50,7 +50,7 @@ body {
     z-index: 999;
     cursor: pointer;
     transition: all .5s;
-    border: 2px solid var(--color-95e);
+    border: 2px solid var(--color-med);
 }
 
 #menu a{
@@ -61,13 +61,14 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
+    font-size: 15px;
     font-weight: bold;
     width: 40px;
     height: 40px;
     border-radius: 50%;
     background-color: var(--color-org);
     transition: all .5s;
-    border: 2px solid var(--color-95e);
+    border: 2px solid var(--color-med);
 }
 .menuBar {
     right: 3%;
@@ -107,6 +108,9 @@ body {
     left: 3%;
     bottom: 6%;
 }
+.shareBar label {
+    font-size: 10px;
+}
 .shareBar a{
     background: url(../img/SNS.png) no-repeat;
     background-size: 190px;
@@ -134,6 +138,19 @@ section{
     min-height: 100vh;
 }
 
+.left_title .title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.left_title p {
+    margin-top: 24px;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: -.5px;
+    color: var(--color-666);
+}
+
 .left_title .wrap_sub {
     margin-top: 40px;
     animation: btns 2s infinite ease-in-out;
@@ -148,34 +165,8 @@ section{
     letter-spacing: -.2px;
     color: white;
 }
-
-@keyframes btns {
-    0%{
-        transform: translateY(0px);
-    }
-    50%{
-        transform: translateY(3px);
-    }
-    100%{
-        transform: translateY(0px);
-    }
-}
-
 .left_title .wrap_sub a:hover {
     text-decoration: underline white;
-}
-
-.left_title .title {
-    font-size: 48px;
-    font-weight: bold;
-}
-
-.left_title p {
-    margin-top: 24px;
-    font-size: 20px;
-    line-height: 1.5;
-    letter-spacing: -.5px;
-    color: var(--color-666);
 }
 
 
@@ -192,7 +183,6 @@ section{
     position: absolute;
     left: 15%;
 }
-
 .sec1 .right_img {
     position: relative;
     left: 22%;
@@ -208,7 +198,6 @@ section{
     border: 6px solid var(--color-org);
     box-shadow: 3px 3px 6px black;
 }
-
 .sec1 .right_img .img2 {
     position: absolute;
     width: 450px;
@@ -234,7 +223,6 @@ section{
     position: absolute;
     right: 15.5%;
 }
-
 .sec2 .right_img {
     position: relative;
     right: 21%;
@@ -246,18 +234,16 @@ section{
     position: relative;
     width: 350px;
     height: 500px;
-    top: 10%;
     left: 40%;
     border-radius: 20px;
     border: 6px solid var(--color-org);
     box-shadow: 3px 3px 6px black;
 }
-
 .sec2 .right_img .img4 {
     position: absolute;
     width: 300px;
     height: 400px;
-    top: 20%;
+    top: 10%;
     right: 50%;
     border-radius: 20px;
     border: 6px solid var(--color-org);
@@ -279,7 +265,6 @@ section{
     position: absolute;
     left: 15%;
 }
-
 .sec3 .right_img {
     position: relative;
     left: 20%;
@@ -296,7 +281,6 @@ section{
     border: 6px solid var(--color-org);
     box-shadow: 3px 3px 6px black;
 }
-
 .sec3 .right_img .img6 {
     position: absolute;
     width: 500px;
@@ -307,6 +291,27 @@ section{
     box-shadow: 3px 3px 6px black;
 }
 
+
+/* 푸터 */
+footer .copy{
+    padding-bottom: 50px;
+    color: var(--color-666);
+}
+
+
+/* 버튼 애니메이션 */
+@keyframes btns {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(3px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+/* 이미지 블러처리 */
 @keyframes image {
     0% {
         filter: blur(5px);
@@ -314,10 +319,4 @@ section{
     100% {
         filter: blur(0px);
     }
-}
-
-/* 푸터 */
-footer .copy{
-    padding-bottom: 50px;
-    color: var(--color-666);
 }
