@@ -12,7 +12,6 @@
     box-sizing: border-box;
 }
 
-
 /* 구매후기 작성 메뉴바 */
 .menuBar {
     position: fixed;
@@ -33,7 +32,7 @@
 }
 .menuBar label {
     color: white;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: bold;
 }
 
@@ -75,8 +74,8 @@
     display: block;
     color: var(--color-org);
     font-size: 4.5rem;
+    z-index: 1;
     font-weight: bold;
-    z-index: 999;
     padding-bottom: 3%;
     text-shadow: 3px 3px 6px black;
 }
@@ -198,6 +197,95 @@
     margin: 0px 8px;
     letter-spacing: -3px;
     cursor: pointer;
+}
+
+/* 모달 창 */
+.hidden {
+    display: none;
+}
+.modal{
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 50px;
+}
+.modal .modal_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    z-index: 2;
+    background-color: #fff;
+    margin: 100px 20%;
+    padding: 100px;
+    border-radius: 8px;
+    border: 6px solid orange;
+}
+.modal .modal_x{
+    position: absolute;
+    bottom: 40%;
+    left: 49.5%;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+}
+
+.modal h1{
+    position: absolute;
+    top: 20%;
+    left: 46.8%;
+    transform: translateY(50%, -50%);
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+.modal_content .input{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.modal_content input{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    resize: none;
+    font-size: 15px;
+    border: solid 2px black;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    padding: 5%;
+    border-radius: 5px;
+    font-weight: bolder;
+    width: 90%;
+    line-height: 1.5;
+}
+.modal_content input:focus{
+    outline: none;
+    border: solid 2px black;
+}
+
+.modal_content textarea{
+    display: block;
+    width: 97.5%;
+    height: 200px;
+    font-size: 18px;
+    border: solid 2px black;
+    margin-left: 10px;
+    padding: 3%;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.modal_content textarea:focus{
+    outline: none;
+    border: solid 2px black;
 }
 
 /* 이미지 블러처리 */

@@ -11,9 +11,9 @@
     <!-- 구매후기 작성 메뉴바 -->
     <div class="menuBar">
         <input type="checkbox" id="menuBtn">
-        <label for="menuBtn">후기작성</label>
+        <label for="menuBtn">🖊</label>
     </div>
-
+    
     <!-- 구매후기 안내 이미지 -->
     <section class="sec1">
         <span>구매하신 특산물에 대해 <br> 구매후기를 남겨주세요 !</span>
@@ -271,5 +271,26 @@
         </ul>
     </section>
 
+    <!-- 모달창 -->
+    <div class="modal hidden">
+        <div class="modal_box">
+            <div class="modal_top">
+                <h1>후기작성</h1>
+                <div class="modal_x">❌</div>
+            </div>
+            <form method="post">
+                <div class="modal_content">
+                    <div class="input">
+                        <input min="2" maxlength="50" minlength="2" class="name" type="text" placeholder="이름을 입력해주세요." required>
+                        <input type="text" class="item" placeholder="구매품을 입력해주세요." required>
+                        <input type="text" class="place" placeholder="구매처를 입력해주세요." required>
+                        <input  type="date" class="date" required>
+                    </div>
+                    <textarea placeholder="내용을 입력해주세요" required></textarea>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
+<script src="./js/review.js"></script>
 </html>
