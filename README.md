@@ -9,6 +9,7 @@
 + Main Page 필수 css
   + 변수 설정 안해놓고 쓰는 색상 - white, black
   + a:hover - underline, 버튼 animation, 로딩시 이미지 블러처리
+  + sec1 - 사진파일에 photo13, 12, 포토샵으로 슬로건 만들기 png로 올리고, jpg로 바꿔서 design 파일에 넣기 / sec2 - 사진파일에 photo17, 18 / sec3 - 사진파일에 photo3, 11
 ``` CSS
 :root {
     --color-org: orange;
@@ -58,6 +59,7 @@
 + Event Page 필수 css
   + 변수 설정 안해놓고 쓰는 색상 - white, black
   + 버튼 animation, 로딩시 이미지 블러처리
+  + sec1 - 사진파일에 photo1 / sec3 - 특산물파일에 진주시_고추
 ``` CSS
 :root {
     --color-org: orange;
@@ -101,6 +103,7 @@
 + Review Page 필수 css
   + 변수 설정 안해놓고 쓰는 색상 - white, black, mediumaquamarine, #999
   + 로딩시 이미지 블러처리
+  + sec1 - 사진파일에 photo23 / sec3 - 특산물파일에 아무거나 10개
 ``` CSS
 :root {
     --color-org: orange;
