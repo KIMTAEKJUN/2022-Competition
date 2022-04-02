@@ -1,3 +1,4 @@
+// 모달창 펼치기
 const get = (ele) => {
     return document.querySelector(ele);
 };
