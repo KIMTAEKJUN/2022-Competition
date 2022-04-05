@@ -200,6 +200,66 @@
     cursor: pointer;
 }
 
+/* 모달창 */
+.hidden {
+    display: none;
+}
+.modal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .4);
+    padding-top: 50px;
+}
+.modal_box {
+    background-color: white;
+    margin: 100px 23%;
+    padding: 35px;
+    border-radius: 8px; 
+}
+.modal_close {
+    cursor: pointer;
+}
+.modal_box .modal_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.modal_box .modal_header h1 {
+    margin: 0;
+}
+.modal_content .input {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+.modal_content input {
+    all: unset;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #999;
+    transition: all 1s;
+    color: var(--color-666);
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+textarea {
+    display: block;
+    width: 95%;
+    height: 200px;
+    padding: 1.5%;
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--color-666);
+    border-radius: 5px;
+    border: 2px solid #999;
+    transition: all 1s;
+}
+
 /* 이미지 블러처리 */
 @keyframes image {
     0% {

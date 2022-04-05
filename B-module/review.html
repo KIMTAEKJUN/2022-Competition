@@ -270,6 +270,25 @@
             <li>>></li>
         </ul>
     </section>
+
+    <!-- 모달창 -->
+    <div class="modal" style="display: none;">
+        <div class="modal_box">
+            <div class="modal_header">
+                <h1>구매후기 작성</h1>
+                <div class="modal_close">❌</div>
+            </div>
+            <form method="post">
+                <div class="modal_content">
+                    <input min="2" maxlength="50" minlength="2" type="text" class="name" placeholder="이름을 입력해주세요." required>
+                    <input type="text" class="item" placeholder="구매품을 입력해주세요." required>
+                    <input type="text" class="place" placeholder="구매처를 입력해주세요." required>
+                    <input type="date" class="date" required>
+                </div>
+                <textarea placeholder="내용을 입력해주세요." required></textarea>
+            </form>
+        </div>
+    </div>
 </body>
 <script src="./js/review.js"></script>
 </html>
