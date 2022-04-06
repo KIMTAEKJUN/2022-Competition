@@ -5,7 +5,6 @@ const get = (ele) => {
 get('.menuBar').addEventListener('click', () => {
     document.querySelector('.modal').style.display = 'block';
 });
-
-get('.modal_x').addEventListener('click', () => {
+get('.modal_close').addEventListener('click', () => {
     document.querySelector('.modal').style.display = 'none';
-})
+});

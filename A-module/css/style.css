@@ -78,7 +78,7 @@ body {
     bottom: 6%;
 }
 
-.menuBar label::after,
+.menuBar label::after,                                      
 .menuBar label::before{
     content: '';
     position: absolute;
@@ -131,7 +131,6 @@ body {
     transform: translateY(calc(-42px * var(--i)));
     transition-delay: calc(0.20s * var(--i));
 }
-
 
 /* 전체 섹션 */
 section{
@@ -243,8 +242,6 @@ section{
     position: relative;
     width: 100%;
     z-index: 20;
-    border-top: 6px solid orange;
-    border-bottom: 6px solid orange;
 }
 
 
@@ -289,7 +286,6 @@ section{
     box-shadow: 3px 3px 6px black;
     
 }
-
 
 /* 세번째 섹션 */
 .sec3 {

@@ -1,3 +1,9 @@
+:root {
+    --color-org: orange;
+    --color-afb: #f9fafb;
+    --color-f9f: #f9ff9f;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -6,13 +12,64 @@
     box-sizing: border-box;
 }
 
-body {
+/* 특산물 안내 이미지 */
+.sec1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    background: url(../img/사진/photo\ \(16\).jpg) no-repeat center;
+    background-size: 100%;
+    animation: image 2s ease-in-out;
+}
+.sec1 span {
+    position: absolute;
+    display: block;
+    color: var(--color-org);
+    font-size: 4.5rem;
+    font-weight: bold;
+    z-index: 1;
+    padding-bottom: 3%;
+    text-shadow: 3px 3px 6px black;
+}
+.sec1::after {
+    content: '';
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(to bottom, transparent, white);
+}
+.sec1::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+/* SVG */
+.sec2 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 img {
     width: 1200px;
     height: 1000px;
+}
+
+/* 이미지 블러처리 */
+@keyframes image {
+    0% {
+        filter: blur(10px);
+    }
+    100% {
+        filter: blur(0px);
+    }
 }

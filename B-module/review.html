@@ -13,7 +13,7 @@
         <input type="checkbox" id="menuBtn">
         <label for="menuBtn">🖊</label>
     </div>
-    
+
     <!-- 구매후기 안내 이미지 -->
     <section class="sec1">
         <span>구매하신 특산물에 대해 <br> 구매후기를 남겨주세요 !</span>
@@ -35,7 +35,7 @@
         <div class="sec3_center">
             <div class="sec3_content">
                 <div class="sec3_cover">
-                    <img src="./img/특산품/고성군_방울토마토.jpg" alt="고성군_방울토마토">
+                    <img src="./img/특산품/고성군_방울토마토.jpg" alt="고성군_방울토마토">
                     <div class="sec3_body">
                         <div class="star">
                             <ul class="stars">
@@ -58,7 +58,7 @@
         <div class="sec3_center">
             <div class="sec3_content">
                 <div class="sec3_cover">
-                    <img src="./img/특산품/합천군_돼지고기.jpg" alt="합천군_돼지고기">
+                    <img src="./img/특산품/합천군_돼지고기.jpg" alt="합천군_돼지고기">
                     <div class="sec3_body">
                         <div class="star">
                             <ul class="stars">
@@ -81,7 +81,7 @@
         <div class="sec3_center">
             <div class="sec3_content">
                 <div class="sec3_cover">
-                    <img src="./img/특산품/하동군_녹차.jpg" alt="하동군_녹차">
+                    <img src="./img/특산품/하동군_녹차.jpg" alt="하동군_녹차">
                     <div class="sec3_body">
                         <div class="star">
                             <ul class="stars">
@@ -104,7 +104,7 @@
         <div class="sec3_center">
             <div class="sec3_content">
                 <div class="sec3_cover">
-                    <img src="./img/특산품/거창군_사과.jpg" alt="거창군_사과">
+                    <img src="./img/특산품/거창군_사과.jpg" alt="거창군_사과">
                     <div class="sec3_body">
                         <div class="star">
                             <ul class="stars">
@@ -127,7 +127,7 @@
         <div class="sec3_center">
             <div class="sec3_content">
                 <div class="sec3_cover">
-                    <img src="./img/특산품/창녕군_양파.jpg" alt="창녕군_양파">
+                    <img src="./img/특산품/창녕군_양파.jpg" alt="창녕군_양파">
                     <div class="sec3_body">
                         <div class="star">
                             <ul class="stars">
@@ -150,7 +150,7 @@
         <div class="sec3_center">
             <div class="sec3_content">
                 <div class="sec3_cover">
-                    <img src="./img/특산품/함양군_밤.jpg" alt="함양군_밤">
+                    <img src="./img/특산품/함양군_밤.jpg" alt="함양군_밤">
                     <div class="sec3_body">
                         <div class="star">
                             <ul class="stars">
@@ -173,7 +173,7 @@
         <div class="sec3_center">
             <div class="sec3_content">
                 <div class="sec3_cover">
-                    <img src="./img/특산품/통영시_굴.jpg" alt="통영시_굴">
+                    <img src="./img/특산품/통영시_굴.jpg" alt="통영시_굴">
                     <div class="sec3_body">
                         <div class="star">
                             <ul class="stars">
@@ -196,7 +196,7 @@
         <div class="sec3_center">
             <div class="sec3_content">
                 <div class="sec3_cover">
-                    <img src="./img/특산품/의령군_수박.jpg" alt="의령군_수박">
+                    <img src="./img/특산품/의령군_수박.jpg" alt="의령군_수박">
                     <div class="sec3_body">
                         <div class="star">
                             <ul class="stars">
@@ -219,7 +219,7 @@
         <div class="sec3_center">
             <div class="sec3_content">
                 <div class="sec3_cover">
-                    <img src="./img/특산품/산청군_약초.jpg" alt="신청군_약초">
+                    <img src="./img/특산품/산청군_약초.jpg" alt="산청군_약초">
                     <div class="sec3_body">
                         <div class="star">
                             <ul class="stars">
@@ -232,7 +232,7 @@
                         </div>
                         <div class="buy_top">
                             <span class="contents">kuah_0 | 2022-03-17</span>
-                            <div class="buy">제품 : 신청군_약초</div>
+                            <div class="buy">제품 : 산청군_약초</div>
                         </div>
                     </div>
                 </div>
@@ -242,7 +242,7 @@
         <div class="sec3_center">
             <div class="sec3_content">
                 <div class="sec3_cover">
-                    <img src="./img/특산품/창원시_풋고추.jpg" alt="창원시_풋고추">
+                    <img src="./img/특산품/창원시_풋고추.jpg" alt="창원시_풋고추">
                     <div class="sec3_body">
                         <div class="star">
                             <ul class="stars">
@@ -272,22 +272,20 @@
     </section>
 
     <!-- 모달창 -->
-    <div class="modal hidden">
+    <div class="modal" style="display: none;">
         <div class="modal_box">
-            <div class="modal_top">
-                <h1>후기작성</h1>
-                <div class="modal_x">❌</div>
+            <div class="modal_header">
+                <h1>구매후기 작성</h1>
+                <div class="modal_close">❌</div>
             </div>
             <form method="post">
                 <div class="modal_content">
-                    <div class="input">
-                        <input min="2" maxlength="50" minlength="2" class="name" type="text" placeholder="이름을 입력해주세요." required>
-                        <input type="text" class="item" placeholder="구매품을 입력해주세요." required>
-                        <input type="text" class="place" placeholder="구매처를 입력해주세요." required>
-                        <input  type="date" class="date" required>
-                    </div>
-                    <textarea placeholder="내용을 입력해주세요" required></textarea>
+                    <input min="2" maxlength="50" minlength="2" type="text" class="name" placeholder="이름을 입력해주세요." required>
+                    <input type="text" class="item" placeholder="구매품을 입력해주세요." required>
+                    <input type="text" class="place" placeholder="구매처를 입력해주세요." required>
+                    <input type="date" class="date" required>
                 </div>
+                <textarea placeholder="내용을 입력해주세요." required></textarea>
             </form>
         </div>
     </div>
